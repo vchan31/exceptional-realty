@@ -11,7 +11,13 @@
 		<script src= "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	</head>
 	<body>
+	<div id="social">
+		<a href="#">Twitter</a>
+		<a href="#">Facebook</a>
+		<a href="#">Google Plus</a>
+	</div>
 	<header>
+		<div class="wrapper">
 		<div id="logo">
 		<h1>Exceptional</h1>
 		<h2>Realty Group</h2>
@@ -19,9 +25,11 @@
 	<nav>
 		<a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
 	</nav>
+</div> <!-- .wrapper -->
 	</header>
 
-	<section id ="featured property">
+<div class="wrapper clearfix">
+	<section id ="featured property" class="col-3 first">
 		<figure>
 		<img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
 		<figcaption>345 Carl Street Apt12, Carrol Rd. Brooklyn, NY -courtsey of Mike</figcaption>
@@ -42,7 +50,7 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 	</section>
-	<section id="promotional">
+	<section id="promotional" class ="col-2 first">
 		<figure>
 
 		<video controls>
@@ -54,33 +62,45 @@
 	</figure>
 	</section>
 
+	<section id="news" class="col-1">
+		<h3>Company News</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. </p>
+
+	</section>
+</div>
+
 	<section id="details">
-		<div>
-			<h3>Contact</h3>
-				<p>email: <a href="mailto:vincent.chan@elliman.com">vincent.chan@elliman.com</a><br>
-					phone: 917-685-0757
+		<div class="wrapper clearfix">
+			<div class="col-1 first">
+				<h3>Contact</h3>
+					<p>email: <a href="mailto:vincent.chan@elliman.com">vincent.chan@elliman.com</a><br>
+						phone: 917-685-0757
+					</p>
+				<h3>Correspondance</h3>
+				<address>Exceptional Realty <br>
+					P.O. Box 555 <br>
+					Brooklyn NY 11204</address>
+				</div>
+			<div class ="col-1">
+				<h3>Links</h3>
+				<p>
+					<a href="#" target="_blank">Home Restoration</a><br>
+					<a href="#" target="_blank">Affordable Mortgage</a><br>
+					<a href="#" target="_blank">Professional Moving Crew</a>
+					
 				</p>
-			<h3>Correspondance</h3>
-			<address>Exceptional Realty <br>
-				P.O. Box 555 <br>
-				Brooklyn NY 11204</address>
+				</div>
+			<div class="col-1">
+				<h3>Follow</h3>
+				<p>
+					<a href="#" target="_blank">Youtube</a><br>
+					<a href="#" target="_blank">Facebook</a><br>
+					<a href="#" target="_blank">Twitter</a>
+				</p>
 			</div>
-		<div>
-			<h3>Links</h3>
-			<p>
-				<a href="#" target="_blank">Home Restoration</a><br>
-				<a href="#" target="_blank">Affordable Mortgage</a><br>
-				<a href="#" target="_blank">Professional Moving Crew</a>
-				
-			</p>
-			</div>
-		<div>
-			<h3>Follow</h3>
-			<p>
-				<a href="#" target="_blank">Youtube</a><br>
-				<a href="#" target="_blank">Facebook</a><br>
-				<a href="#" target="_blank">Twitter</a>
-			</p>
 		</div>
 	</section>
 
